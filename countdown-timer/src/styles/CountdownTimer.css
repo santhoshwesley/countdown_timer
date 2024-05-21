@@ -1,0 +1,37 @@
+/* CountdownTimer.css */
+
+.countdown-timer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.timer-item {
+  margin: 5px 5px;
+  width: 100px;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px;
+  background: linear-gradient(135deg, #667eea, #a24b9b);
+  border-radius: 5px;
+}
+
+.cancel-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cancel-button:hover {
+  background: linear-gradient(135deg, #764ba2, #667eea);
+}
